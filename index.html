@@ -1,37 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
     <title>Analog Clock</title>
 </head>
+
 <body>
     <div class="container">
-        <div class="clock-outer">
-    <div class="clock">
-        <div class="clock-face">
-            <div class="hour-number">1</div>
-            <div class="hour-number">2</div>
-            <div class="hour-number">3</div>
-            <div class="hour-number">4</div>
-            <div class="hour-number">5</div>
-            <div class="hour-number">6</div>
-            <div class="hour-number">7</div>
-            <div class="hour-number">8</div>
-            <div class="hour-number">9</div>
-            <div class="hour-number">10</div>
-            <div class="hour-number">11</div>
-            <div class="hour-number">12</div>
-
-            <div class="hand hour-hand"></div>
-            <div class="hand min-hand"></div>
-            <div class="hand sec-hand"></div>
+        <div class="button-aria">
+            <button id="toggleButton">DEGITAL</button>
         </div>
-    </div>
-</div>
+        <div class="clock-aria">
+            <div class="clock">
+                <div class="clock-face">
+                    <div class="hour-number">1</div>
+                    <div class="hour-number">2</div>
+                    <div class="hour-number">3</div>
+                    <div class="hour-number">4</div>
+                    <div class="hour-number">5</div>
+                    <div class="hour-number">6</div>
+                    <div class="hour-number">7</div>
+                    <div class="hour-number">8</div>
+                    <div class="hour-number">9</div>
+                    <div class="hour-number">10</div>
+                    <div class="hour-number">11</div>
+                    <div class="hour-number">12</div>
+
+                    <div class="hand hour-hand"></div>
+                    <div class="hand min-hand"></div>
+                    <div class="hand sec-hand"></div>
+                </div>
+            </div>
+            <div class="dgt-clock">
+                <div id="Dg-clock">
+                    <span id="hour"></span>:<span id="minute"></span>:<span id="second"></span>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="./app.js"></script>
 </body>
+
 </html>
