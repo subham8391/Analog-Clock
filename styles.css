@@ -147,11 +147,14 @@ body{
     border-radius: 10px;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 550px) {
    
     .dgt-clock{
-        height: 30vh;
+        height: 25vh;
         width: 100%;
        
+    }
+    #Dg-clock{
+        padding: 10px;
     }
   }
