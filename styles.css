@@ -52,6 +52,7 @@ body{
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
 }
+/*Created By Subham Das */
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -83,6 +84,7 @@ body{
     transform: rotate(90deg);
     /* transition: all 0.5s; */
     transition-timing-function: cubic-bezier(0.1,2.7,0.58,1);
+	/*Created By Subham Das */
 }
 
 .hour-hand{
@@ -98,6 +100,7 @@ body{
     right: 155px;
     font-size: 1.5rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	/*Created By Subham Das */
     font-weight: bold;
     color: rgb(255, 255, 255);
     transform-origin: 50% 100%;
@@ -113,7 +116,9 @@ body{
 .hour-number:nth-child(6) { transform: rotate(270deg) translateY(-130px); }
 .hour-number:nth-child(7) { transform: rotate(210deg) translateY(-130px); }
 .hour-number:nth-child(8) { transform: rotate(240deg) translateY(-130px); }
+/*Created By Subham Das */
 .hour-number:nth-child(9) { transform: rotate(180deg) translateY(-130px); }
+/*Created By Subham Das */
 .hour-number:nth-child(10) { transform: rotate(300deg) translateY(-130px); }
 .hour-number:nth-child(11) { transform: rotate(330deg) translateY(-130px); }
 .hour-number:nth-child(12) { transform: rotate(360deg) translateY(-130px); }
@@ -127,6 +132,7 @@ body{
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
     border-radius: 5px;
+	/*Created By Subham Das */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 6rem;
     display: flex;
@@ -163,3 +169,4 @@ justify-content: center;
         padding: 10px;
     }
   }
+/*Created By Subham Das */
